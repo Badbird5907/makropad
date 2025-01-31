@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Seeed_Studio_XIAO_Series")(type "KiCad")(uri "${KIPRJMOD}/Components/Seeed_Studio_XIAO_Series.kicad_sym")(options "")(descr ""))
   (lib (name "XIAO_RP2040")(type "KiCad")(uri "${KIPRJMOD}/Components/XIAO_RP2040.kicad_sym")(options "")(descr ""))
+  (lib (name "PCF8574AN")(type "KiCad")(uri "${KIPRJMOD}/Components/PCF8574A_SMD.kicad_sym")(options "")(descr ""))
 )
