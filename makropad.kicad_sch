@@ -444,142 +444,6 @@
 				)
 			)
 		)
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:D"
 			(pin_numbers hide)
 			(pin_names
@@ -2551,28 +2415,10 @@
 		)
 	)
 	(junction
-		(at 80.01 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05ea18b1-e293-48c8-9ece-1477d1b4f0e5")
-	)
-	(junction
 		(at 64.77 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07c2840c-75b7-4de7-a26a-04b406022d16")
-	)
-	(junction
-		(at 114.3 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "084ad632-1f17-4485-9762-d81c6075f6ef")
-	)
-	(junction
-		(at 60.96 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a1bb712-2216-42af-a632-1515532189be")
 	)
 	(junction
 		(at 86.36 34.29)
@@ -2605,76 +2451,10 @@
 		(uuid "13925f8e-50de-47b4-b9ba-f8c7c6fc0224")
 	)
 	(junction
-		(at 60.96 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14787ca9-cf29-407a-9afa-eedc39036a86")
-	)
-	(junction
-		(at 181.61 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14be9fb4-cf39-4523-b38c-6ddcdbaf6e8f")
-	)
-	(junction
-		(at 60.96 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b2a055b-a926-4d4d-b092-9d6aeb66893c")
-	)
-	(junction
-		(at 35.56 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24c26bd2-e0ac-40ef-a076-1e8bea834b63")
-	)
-	(junction
-		(at 114.3 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a9faba2-c436-4cbe-b89b-a7377279a27b")
-	)
-	(junction
 		(at 99.06 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ef74f36-21eb-46d7-bf42-d990805d570a")
-	)
-	(junction
-		(at 87.63 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f95f338-d021-4365-addc-2485f7d376e8")
-	)
-	(junction
-		(at 53.34 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a8aa94e-3020-4f1b-8560-bbd2a8a86a97")
-	)
-	(junction
-		(at 151.13 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bb04d7b-2291-4b5c-8a88-270ca71d6a30")
-	)
-	(junction
-		(at 35.56 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41a708ec-2483-4997-b2e0-95bd56b58e3b")
-	)
-	(junction
-		(at 158.75 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49d3e522-2fee-4fd6-a2c3-2681c4cfebd5")
-	)
-	(junction
-		(at 166.37 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53b08f10-bde0-4cdc-b0bd-30702e25c3ac")
 	)
 	(junction
 		(at 73.66 55.88)
@@ -2689,28 +2469,10 @@
 		(uuid "55cd0ee4-1e30-4711-8ae1-8e5db61ccae0")
 	)
 	(junction
-		(at 173.99 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5abd7b75-2ccd-45d6-861a-a6332ac5395a")
-	)
-	(junction
 		(at 107.95 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ddf1e61-d6d7-49e0-a936-dc1c829b5cfe")
-	)
-	(junction
-		(at 158.75 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67763f6f-a285-4b23-8813-631b5a25765a")
-	)
-	(junction
-		(at 53.34 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69344683-2554-42b7-89d4-a672a0c0e310")
 	)
 	(junction
 		(at 53.34 55.88)
@@ -2725,40 +2487,16 @@
 		(uuid "6ff27f91-7cd1-4ad5-94aa-766ec143d7e0")
 	)
 	(junction
-		(at 53.34 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74952726-33a1-4206-82ef-e6cea0dbf695")
-	)
-	(junction
 		(at 40.64 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "753c8b5b-63ba-4f09-b195-cd76a9a184c4")
 	)
 	(junction
-		(at 173.99 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7aa05508-3cfc-4aeb-ba4c-7280f8c97973")
-	)
-	(junction
-		(at 189.23 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83061c8c-eb9a-4bf4-87e0-78b3182acc0b")
-	)
-	(junction
 		(at 60.96 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8708900d-7003-436c-97bf-cf1abc24c798")
-	)
-	(junction
-		(at 35.56 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94bc52b6-87af-4a32-9215-879e4eb9afac")
 	)
 	(junction
 		(at 36.83 34.29)
@@ -2785,12 +2523,6 @@
 		(uuid "a5bca911-d3c3-4b9c-8374-24e795657d29")
 	)
 	(junction
-		(at 106.68 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aadb9744-64fb-4606-ba6d-df8b45b18f61")
-	)
-	(junction
 		(at 273.05 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2803,76 +2535,16 @@
 		(uuid "b9085172-a594-4877-a379-a3b0ccf6e996")
 	)
 	(junction
-		(at 27.94 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b90f62f4-2b26-481d-9220-a1cd69f58de6")
-	)
-	(junction
-		(at 181.61 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd30a489-b746-4ee6-a038-96530559d4ba")
-	)
-	(junction
-		(at 166.37 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c51db3a3-f481-49c0-b409-4a8e2228fd3e")
-	)
-	(junction
 		(at 273.05 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c82e8e90-3431-4726-b7c4-6da21db38821")
 	)
 	(junction
-		(at 106.68 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6c1e82d-c7e3-4484-9bdb-c7ce18eb40c7")
-	)
-	(junction
-		(at 151.13 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9828ba1-7fdd-4c67-8ef8-c1ca5ea36f14")
-	)
-	(junction
 		(at 49.53 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed3fff88-300c-4894-8488-4c2c515849c2")
-	)
-	(junction
-		(at 27.94 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eda25ba5-7ea2-4945-96e7-3b7243ff70b0")
-	)
-	(junction
-		(at 87.63 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eea73148-ea28-4a73-b0d7-2c4b9e157503")
-	)
-	(junction
-		(at 189.23 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f300d450-55b3-4145-91ff-01cc5ddf5349")
-	)
-	(junction
-		(at 80.01 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fad51d9b-f4c8-4dbd-a980-be0fc135a71d")
-	)
-	(junction
-		(at 27.94 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd1bd694-9621-47ef-8570-b6222e67a9b0")
 	)
 	(wire
 		(pts
@@ -5480,73 +5152,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 83.82 142.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "01728a81-fb53-47bd-8587-6838fae659ec")
-		(property "Reference" "C7"
-			(at 83.82 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 83.82 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 141.2748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 83.82 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0985f4a4-4ce7-45a0-bf66-2d17af942738")
-		)
-		(pin "2"
-			(uuid "148f7dab-1a51-4407-bdc2-4c23c10ce744")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SK6812_CUSTOM:SK6812_Custom")
 		(at 57.15 121.92 0)
 		(unit 1)
@@ -5615,73 +5220,6 @@
 			(project "makropad"
 				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
 					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 57.15 142.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "037630c9-52d8-4d6c-bb23-4b8c3a48b963")
-		(property "Reference" "C6"
-			(at 57.15 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 57.15 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 141.2748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 57.15 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d59b28a-546a-4179-8317-ea2ce2d52ecf")
-		)
-		(pin "2"
-			(uuid "9b69ab47-e658-4ffd-92c3-dfab0717caee")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5869,7 +5407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Components:4pin"
 			(at 92.71 185.42 0)
 			(effects
 				(font
@@ -6778,140 +6316,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 154.94 142.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b05c75d-9efd-4a6b-8a84-7b27365b1ee8")
-		(property "Reference" "C14"
-			(at 154.94 135.382 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 154.94 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 141.2748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 154.94 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de8cd3da-74ff-4915-84df-f5c31ba4e1f0")
-		)
-		(pin "2"
-			(uuid "7ba06c09-d4b5-4392-8105-16e75310993b")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 57.15 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3fe95d3c-c01d-4a17-942f-f9a97d554ce5")
-		(property "Reference" "C10"
-			(at 57.15 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 57.15 166.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 169.2148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 57.15 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "125b3ea0-f053-4160-a5cf-da98add70c12")
-		)
-		(pin "2"
-			(uuid "7fb8a483-efb7-4940-b4ae-657f397aec44")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 186.69 49.53 0)
 		(unit 1)
@@ -7243,73 +6647,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 185.42 142.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d685b54-d0f2-4864-a5b9-96ad8e697b90")
-		(property "Reference" "C16"
-			(at 185.42 135.382 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 185.42 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 141.2748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 185.42 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66273e2d-49ba-4aa0-8c96-708467a9adaa")
-		)
-		(pin "2"
-			(uuid "81998d2e-6781-4a9c-ba35-ba0824f72098")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 92.71 173.99 0)
 		(unit 1)
@@ -7336,7 +6673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Components:4pin"
 			(at 92.71 173.99 0)
 			(effects
 				(font
@@ -7886,73 +7223,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 31.75 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "62f274e4-bec2-443c-9b61-f84e7a7e8823")
-		(property "Reference" "C1"
-			(at 31.75 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 31.75 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 113.3348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 31.75 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "282fad8a-6147-4924-acd1-3281dd3e3532")
-		)
-		(pin "2"
-			(uuid "179800e3-ee81-42f9-a771-d8698b81e446")
-		)
-		(instances
-			(project ""
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 35.56 170.18 180)
 		(unit 1)
@@ -8222,140 +7492,6 @@
 			(project "makropad"
 				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
 					(reference "D27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 57.15 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69f27f4a-ca26-4e37-b213-522918ad3cd5")
-		(property "Reference" "C2"
-			(at 57.15 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 57.15 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 113.3348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 57.15 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6c3317e-99bd-4297-ab6a-65f118ec50ba")
-		)
-		(pin "2"
-			(uuid "f7fa188a-c31b-4e93-a91d-b380a30e14b3")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 170.18 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ada8d1e-32fc-47b4-ab47-0aee716d3936")
-		(property "Reference" "C12"
-			(at 170.18 107.696 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 170.18 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 113.3348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 170.18 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6851332-f4d2-45fa-a8cb-d18eef862335")
-		)
-		(pin "2"
-			(uuid "1279574a-6c11-4566-8c12-47e2e38a76a1")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8652,73 +7788,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 154.94 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ff0aad8-a474-4aa8-83ff-85db0b50c7fc")
-		(property "Reference" "C11"
-			(at 154.94 107.696 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 154.94 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 113.3348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 154.94 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4474c35-1408-4e9c-893c-d3e6093d4c82")
-		)
-		(pin "2"
-			(uuid "6dd02390-5d69-411b-a0f5-cfaa9b7d1736")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
 		(at 166.37 27.94 180)
 		(unit 1)
@@ -8726,7 +7795,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7053fc29-1dc6-4ec4-967d-d43563237ae4")
 		(property "Reference" "SW11"
 			(at 166.37 17.78 0)
@@ -8744,7 +7812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+		(property "Footprint" "Components:encoder"
 			(at 170.18 32.004 0)
 			(effects
 				(font
@@ -9293,73 +8361,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 170.18 142.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ae0baa2-346b-45d1-98a7-8c09ee5325d6")
-		(property "Reference" "C15"
-			(at 170.18 135.382 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 170.18 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 141.2748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c33f50cc-c88c-4238-931a-ab5823dc0fc4")
-		)
-		(pin "2"
-			(uuid "2109aa7d-05d9-450a-bb09-daf4201d07d3")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SK6812_CUSTOM:SK6812_Custom")
 		(at 83.82 149.86 0)
 		(unit 1)
@@ -9582,73 +8583,6 @@
 			(project "makropad"
 				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 31.75 142.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "86b5ad6e-c884-4c1e-8d28-e46d547cd951")
-		(property "Reference" "C5"
-			(at 31.75 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 31.75 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 141.2748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 31.75 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3494f38-5534-43ec-9a74-b8b247e91882")
-		)
-		(pin "2"
-			(uuid "fe2d0e50-7347-4ad4-b377-7f66cd3d2e63")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9878,7 +8812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+		(property "Footprint" "Components:encoder"
 			(at 170.18 51.054 0)
 			(effects
 				(font
@@ -10064,73 +8998,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 31.75 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "905d3593-15f6-4afd-8ab9-2cb8bd54bf13")
-		(property "Reference" "C9"
-			(at 31.75 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 31.75 166.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 169.2148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 31.75 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d2a518d-2d1e-440e-aa1c-908d7f59bfca")
-		)
-		(pin "2"
-			(uuid "ae843972-ffe7-4dfa-8af0-729a8194a3d5")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SK6812_CUSTOM:SK6812_Custom")
 		(at 154.94 149.86 0)
 		(unit 1)
@@ -10199,73 +9066,6 @@
 			(project "makropad"
 				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
 					(reference "D26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 185.42 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9193efdc-525f-41ef-91ea-c1e7b0025029")
-		(property "Reference" "C13"
-			(at 185.42 107.696 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 185.42 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 113.3348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 185.42 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92602318-fff2-40d5-91b1-185bf6680bbd")
-		)
-		(pin "2"
-			(uuid "d8e0b253-a6c2-4c3e-9c37-2b96d1b02715")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -10810,73 +9610,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 110.49 142.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a5a3bd5c-8d18-4ea3-a818-cd8ad45ad4c9")
-		(property "Reference" "C8"
-			(at 110.49 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 110.49 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 141.2748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 110.49 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98db68b9-8afa-452e-b43a-9ec12f13a94c")
-		)
-		(pin "2"
-			(uuid "93c1aff6-ebeb-460d-86aa-bae5dd1f11fa")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 116.84 44.45 0)
 		(unit 1)
@@ -11009,73 +9742,6 @@
 			(project "makropad"
 				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 83.82 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aa894cea-1465-46a6-99d8-cbb1dc6404cf")
-		(property "Reference" "C3"
-			(at 83.82 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 83.82 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 113.3348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 83.82 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46df65f5-777a-4bf6-8f3a-be8522cd01c7")
-		)
-		(pin "2"
-			(uuid "ac436907-9c9f-4f8f-b48c-8d9bc9e3d22f")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -11490,7 +10156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Components:4pin"
 			(at 113.03 185.42 0)
 			(effects
 				(font
@@ -11767,7 +10433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Components:4pin"
 			(at 113.03 173.99 0)
 			(effects
 				(font
@@ -12617,73 +11283,6 @@
 			(project "makropad"
 				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 110.49 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "de9d5bee-5348-4672-8479-f6b32938b647")
-		(property "Reference" "C4"
-			(at 110.49 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 110.49 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 113.3348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 110.49 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "128ddf78-4cdf-46ef-8fe7-fe974f858a0b")
-		)
-		(pin "2"
-			(uuid "9d6db4da-1308-4e5f-9133-354cffd3b903")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "C4")
 					(unit 1)
 				)
 			)
