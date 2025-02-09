@@ -184,15 +184,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "1871d09a-0cd5-46d0-938f-7ff43985efab")
 	)
-	(model "C:/Users/Mohid/Downloads/LED underglow/SK6812MINI-E.step"
+	(model "${KIPRJMOD}/Components/LED_SK6812MINI-E.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -5.07 -1.8)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 0 0)
+			(xyz 0 180 180)
 		)
 	)
 )
