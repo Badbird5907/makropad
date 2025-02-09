@@ -3126,7 +3126,7 @@
 	)
 	(polyline
 		(pts
-			(xy 15.24 106.68) (xy 127 106.68)
+			(xy 15.24 105.41) (xy 127 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3696,7 +3696,7 @@
 	)
 	(polyline
 		(pts
-			(xy 15.24 106.68) (xy 15.24 194.31)
+			(xy 15.24 105.41) (xy 15.24 194.31)
 		)
 		(stroke
 			(width 0)
@@ -3766,7 +3766,7 @@
 	)
 	(polyline
 		(pts
-			(xy 127 165.1) (xy 127 106.68)
+			(xy 127 165.1) (xy 127 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3897,8 +3897,8 @@
 		(uuid 105dd3e1-28bc-46a1-af39-6ea2c1fb585d)
 	)
 	(rectangle
-		(start 132.08 106.68)
-		(end 199.39 165.1)
+		(start 132.08 105.41)
+		(end 199.39 163.83)
 		(stroke
 			(width 0)
 			(type default)
@@ -3982,7 +3982,7 @@
 	)
 	(text "RGB"
 		(exclude_from_sim no)
-		(at 22.098 109.474 0)
+		(at 19.558 108.458 0)
 		(effects
 			(font
 				(size 2.54 2.54)
