@@ -205,7 +205,7 @@
 		(path "/b7e92c72-b522-48f6-b8c7-4d04eaced014")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -3.5 -2.3)
 			(end -3.5 2.75)
@@ -506,7 +506,7 @@
 		(path "/012b309a-6ecb-4922-b44b-d7f74fb6c441")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -3.5 -2.3)
 			(end -3.5 2.75)
@@ -802,7 +802,7 @@
 		(path "/66fa25ad-7c61-44b1-b232-627cc49f764a")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 9.525)
 			(end -9.525 -9.525)
@@ -1043,7 +1043,7 @@
 		(path "/d149e3a6-7a39-4566-8e60-607a7ee8a3de")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 9.525)
 			(end -9.525 -9.525)
@@ -1284,7 +1284,7 @@
 		(path "/a7696db5-5efb-4251-9cb1-e210edd138f8")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 9.525)
 			(end -9.525 -9.525)
@@ -1532,7 +1532,7 @@
 		(path "/ba6c3077-7db1-4e3f-8647-aa27be1c8e5b")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 1.27)
 			(end -1.33 8.95)
@@ -1819,7 +1819,7 @@
 		(path "/c877011f-ec9e-468b-8d8e-43bec9d8b908")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 38 12)
 			(end 38 0)
@@ -2090,7 +2090,7 @@
 		(path "/684b1e4f-98da-40ea-b43f-5947d6576eb3")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -3.5 -2.3)
 			(end -3.5 2.75)
@@ -2393,7 +2393,7 @@
 		(path "/4e9aa350-d49d-4463-8b39-f78718a1ed62")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 1.27)
 			(end -1.33 8.95)
@@ -2683,7 +2683,7 @@
 		(path "/8b3db697-bc53-48be-ab72-c0bb2707c5ef")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.3 -1.6)
 			(end 0.3 -1.6)
@@ -3110,7 +3110,7 @@
 		(path "/c56a5222-1ad0-4c04-82e5-48026a1a5d77")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -3.5 -2.3)
 			(end -3.5 2.75)
@@ -3411,7 +3411,7 @@
 		(path "/906bbc6e-219c-4d72-9810-3de5f047b0c3")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -3.5 -2.3)
 			(end -3.5 2.75)
@@ -3712,7 +3712,7 @@
 		(path "/eda43a2e-b339-4f96-8170-b97014430168")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -3.5 -2.3)
 			(end -3.5 2.75)
@@ -4008,7 +4008,7 @@
 		(path "/1f344585-2e0e-49e7-beac-1d1b8038aaad")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 9.525)
 			(end -9.525 -9.525)
@@ -4256,7 +4256,7 @@
 		(path "/1c60671b-9a2c-4eec-bdd2-7346aac87617")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.33 -1.33)
 			(end 1.33 0)
@@ -4540,7 +4540,7 @@
 		(path "/78c453f7-c8ac-4dc3-81f7-0dc99f6590e9")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 9.525)
 			(end -9.525 -9.525)
@@ -4781,7 +4781,7 @@
 		(path "/1fe7ee2f-71b0-49bf-a1f2-d5fd02eb5c7a")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 9.525)
 			(end -9.525 -9.525)
@@ -5028,7 +5028,7 @@
 		(path "/7053fc29-1dc6-4ec4-967d-d43563237ae4")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.3 -1.6)
 			(end 0.3 -1.6)
@@ -5450,7 +5450,7 @@
 		(path "/c662e7b5-308d-4544-9a20-8e24c5d1ebe9")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 9.525)
 			(end -9.525 -9.525)
@@ -5698,7 +5698,7 @@
 		(path "/c2a88f9c-c83b-4afa-85c2-a0e900685281")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.33 -1.33)
 			(end 1.33 0)
@@ -5982,7 +5982,7 @@
 		(path "/a6e479fd-3f23-41c3-ae87-f27766f2b0c0")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 9.525)
 			(end -9.525 -9.525)
@@ -6223,7 +6223,7 @@
 		(path "/6b424510-bd7b-4ba3-81d3-59bce21fec97")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 9.525)
 			(end -9.525 -9.525)
@@ -6464,7 +6464,7 @@
 		(path "/c13f4752-b47e-4110-8135-1852f06f3add")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.525 9.525)
 			(end -9.525 -9.525)
@@ -6738,6 +6738,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "42570c4f-b1f5-436a-9294-26329d212101")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
@@ -7042,7 +7054,7 @@
 		(path "/7fd5f45b-3bee-4131-92f0-9526e87beac6")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 2.8 1.4) (xy 2.2 1.4) (xy 2.2 2)
@@ -7517,6 +7529,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0a8e421b-9b5a-435f-bd55-e935b065425c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/75d752a2-8c1b-4d3b-afc0-d5106786282c")
 		(sheetname "Root")
@@ -7819,7 +7843,7 @@
 		(path "/5d00df42-9b62-4bb2-bfc9-bca67e970b48")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 2.8 1.4) (xy 2.2 1.4) (xy 2.2 2)
@@ -8061,6 +8085,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "40170d27-6f74-4b97-bb1b-db99a2251660")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
@@ -8596,7 +8632,7 @@
 		(path "/960e06a1-b712-481f-aaac-d39d715fb7ad")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 2.8 1.4) (xy 2.2 1.4) (xy 2.2 2)
@@ -8813,7 +8849,7 @@
 		(path "/e677580e-0c35-4242-9625-390f7eeda4a0")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 2.8 1.4) (xy 2.2 1.4) (xy 2.2 2)
@@ -9288,6 +9324,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "425e654d-106a-418c-a3e0-40c3c7439175")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/85d04973-cf96-4d1d-ab03-5092d6934bcc")
 		(sheetname "Root")
@@ -9615,6 +9663,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3a86d962-fb02-4747-b01a-9780a0a721f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
@@ -10177,6 +10237,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f589233e-5e5d-4073-917e-663c628688df")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/16b91150-7766-4b46-a93f-703bed92cf05")
 		(sheetname "Root")
@@ -10506,6 +10578,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "eb38e7b3-ebc2-4c30-994b-b7df4f40fb5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/e6e7007a-2cb0-47cb-a826-bc0339175f5a")
 		(sheetname "Root")
@@ -10808,7 +10892,7 @@
 		(path "/4f149fcc-8575-48f2-8ff3-77c25b40d45a")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 2.8 1.4) (xy 2.2 1.4) (xy 2.2 2)
@@ -11025,7 +11109,7 @@
 		(path "/02c3bfa9-d355-4cb9-9928-a8ff87152822")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 2.8 1.4) (xy 2.2 1.4) (xy 2.2 2)
@@ -11242,7 +11326,7 @@
 		(path "/d9e90a6f-02b6-4a88-af44-a869267a3d0a")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 2.8 1.4) (xy 2.2 1.4) (xy 2.2 2)
@@ -11459,7 +11543,7 @@
 		(path "/cd5e935c-975d-4b18-bfe1-074bcc7f078b")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 2.8 1.4) (xy 2.2 1.4) (xy 2.2 2)
@@ -11701,6 +11785,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3747f1e2-0c67-4258-9c25-98582218e591")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
@@ -13052,7 +13148,7 @@
 		(path "/e48ce784-81f5-4db0-bf63-3cbbf0ab1d46")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 2.8 1.4) (xy 2.2 1.4) (xy 2.2 2)
@@ -13294,6 +13390,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "df70ca87-8815-445a-b0e6-4247458b8a12")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
@@ -13856,6 +13964,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3ab97911-b8bb-4136-9322-95cbd773d760")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/aca741d4-ad15-46d0-bf81-d602b86b05f0")
 		(sheetname "Root")
@@ -14183,6 +14303,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "027bf701-102b-4c1e-9e42-87d0007bff18")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
@@ -14716,7 +14848,7 @@
 		(path "/273660d8-7ac2-4f42-975d-ff808a83b5b9")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.9 -10.5)
 			(end -6.9 -10.5)
@@ -17789,7 +17921,7 @@
 		(path "/737006ca-8661-4a8f-9b1a-fa297bf56cfa")
 		(sheetname "Root")
 		(sheetfile "makropad.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 2.8 1.4) (xy 2.2 1.4) (xy 2.2 2)
@@ -18031,6 +18163,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e8d416d0-db4f-4328-8654-116f3c479711")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
