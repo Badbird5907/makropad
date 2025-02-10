@@ -2,7 +2,7 @@
 
 - 10x Cherry MX Brown RGB switches (or any other RGB-compatible switch)
 - 10x Reverse-mounted SK6812 SMD LEDs
-- 12x SMD Diodes (1N4148)
+- 12x SMD Diodes (1N4148W)
 - 6x Normal SK6812 SMD LEDs
 - 2x EC11 Rotary encoders
 - 1x 0.91" OLED display
