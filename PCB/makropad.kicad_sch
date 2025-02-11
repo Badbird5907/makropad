@@ -3128,16 +3128,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 161.29) (xy 24.13 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aec04655-646d-43a1-8faf-a69d30b1e41d")
-	)
-	(wire
-		(pts
 			(xy 53.34 39.37) (xy 53.34 44.45)
 		)
 		(stroke
@@ -3642,7 +3632,7 @@
 	)
 	(rectangle
 		(start 74.93 166.37)
-		(end 153.67 194.31)
+		(end 127 194.31)
 		(stroke
 			(width 0)
 			(type default)
@@ -3702,7 +3692,7 @@
 	)
 	(text "I2C Breakout\nLikely will need another\nprototype in the future\nif I want to properly\nuse this"
 		(exclude_from_sim no)
-		(at 141.224 173.736 0)
+		(at 88.9 187.452 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4024,22 +4014,22 @@
 	)
 	(global_label "RGB"
 		(shape input)
-		(at 220.98 46.99 180)
+		(at 255.27 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "2172c612-b37b-47f0-96f3-c02bc015f0dc")
+		(uuid "1d4d413e-b555-4461-acd1-3ebc9031fef3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.1848 46.99 0)
+			(at 262.0652 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4132,28 +4122,6 @@
 			)
 		)
 	)
-	(global_label "I2C_SCL"
-		(shape input)
-		(at 87.63 187.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3445ec18-c725-4b69-95ba-dc27bad53b4f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.0853 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ENC_2_B"
 		(shape input)
 		(at 265.43 142.24 180)
@@ -4194,6 +4162,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB2"
+		(shape input)
+		(at 255.27 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "410c0298-8954-4d8f-8f2f-b24db68eceb6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 263.2747 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4365,50 +4355,6 @@
 		(uuid "573ea584-91c3-443f-94c1-8a96c1207441")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 254.462 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C_SDA"
-		(shape input)
-		(at 107.95 173.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "589f2da7-5d49-421d-8009-509a33715db0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.3448 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C_SDA"
-		(shape input)
-		(at 87.63 185.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5cf7c5c9-458c-47aa-b049-c0fb7a78ea33")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.0248 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,28 +4540,6 @@
 			)
 		)
 	)
-	(global_label "I2C_SDA"
-		(shape input)
-		(at 107.95 185.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "852367b9-abaf-4414-a8d8-34b53cfa656a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.3448 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ENC_1_A"
 		(shape input)
 		(at 265.43 157.48 180)
@@ -4678,28 +4602,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C_SCL"
-		(shape input)
-		(at 107.95 187.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9d1b6cb2-6c9e-4b0c-90dd-cc4f9d35cfec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.4053 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4836,28 +4738,6 @@
 			)
 		)
 	)
-	(global_label "I2C_SCL"
-		(shape input)
-		(at 107.95 176.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c1962646-08fa-41a6-9ffc-0068bef6d513")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.4053 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "COL3"
 		(shape input)
 		(at 220.98 39.37 180)
@@ -4964,6 +4844,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB2"
+		(shape input)
+		(at 24.13 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f85c56d0-0032-42ea-8ee5-a21a27dd5366")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.1253 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5381,81 +5283,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 92.71 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c60671b-9a2c-4eec-bdd2-7346aac87617")
-		(property "Reference" "J3"
-			(at 95.25 185.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 86.614 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Components:4pin"
-			(at 92.71 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 92.71 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "4a9bced6-8360-44a7-8343-8e07d581e976")
-		)
-		(pin "2"
-			(uuid "7f42b2f4-be50-4fe7-bf8f-6ca7468304f9")
-		)
-		(pin "4"
-			(uuid "ab2a6c27-bbf1-49f2-b9fd-86277ce669db")
-		)
-		(pin "1"
-			(uuid "aadc3d9d-07af-4ac3-baec-15dda17a6cd8")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 67.31 44.45 0)
 		(unit 1)
@@ -5482,7 +5309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Components:MX-Solderable-1U"
+		(property "Footprint" "Components:Gateron Low Profile Switch 2.0"
 			(at 67.31 44.45 0)
 			(effects
 				(font
@@ -5551,7 +5378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Components:MX-Solderable-1U"
+		(property "Footprint" "Components:Gateron Low Profile Switch 2.0"
 			(at 92.71 44.45 0)
 			(effects
 				(font
@@ -5780,140 +5607,6 @@
 			(project ""
 				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 107.95 190.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27862891-74fe-4a22-a701-573facaf8b24")
-		(property "Reference" "#PWR037"
-			(at 101.6 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 190.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c298dde8-b41a-4ac2-803c-9c957e9a1ecc")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 87.63 182.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27c45030-7972-4fd2-b95a-ad1ed99f46e6")
-		(property "Reference" "#PWR032"
-			(at 91.44 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 83.82 182.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 87.63 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ad07e08-b892-4723-9c1b-5696f71738a6")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -7381,7 +7074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Components:MX-Solderable-1U"
+		(property "Footprint" "Components:Gateron Low Profile Switch 2.0"
 			(at 120.65 36.83 0)
 			(effects
 				(font
@@ -7524,7 +7217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Components:MX-Solderable-1U"
+		(property "Footprint" "Components:Gateron Low Profile Switch 2.0"
 			(at 96.52 36.83 0)
 			(effects
 				(font
@@ -7715,73 +7408,6 @@
 			(project "makropad"
 				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 107.95 182.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e4b7977-8433-42af-ab07-f595ebc6d974")
-		(property "Reference" "#PWR036"
-			(at 111.76 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 104.14 182.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 107.95 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "643862da-656f-4b4b-a767-a4f86ad8ed8e")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7999,73 +7625,6 @@
 			(project "makropad"
 				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 107.95 179.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75bea82c-0a40-48c6-a79f-fbe2be6ec551")
-		(property "Reference" "#PWR035"
-			(at 101.6 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 179.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fb69461-7111-4dd0-824c-08235204d6f8")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -8318,7 +7877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Components:MX-Solderable-1U"
+		(property "Footprint" "Components:Gateron Low Profile Switch 2.0"
 			(at 71.12 36.83 0)
 			(effects
 				(font
@@ -8925,73 +8484,6 @@
 			(project ""
 				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 107.95 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e84328c-1ab7-4f6c-bb58-1b76affcbfd1")
-		(property "Reference" "#PWR034"
-			(at 111.76 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 104.14 171.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 107.95 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae53d24b-0b9a-4967-9013-e7e10b702595")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9636,7 +9128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Components:MX-Solderable-1U"
+		(property "Footprint" "Components:Gateron Low Profile Switch 2.0"
 			(at 116.84 44.45 0)
 			(effects
 				(font
@@ -9705,7 +9197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Components:MX-Solderable-1U"
+		(property "Footprint" "Components:Gateron Low Profile Switch 2.0"
 			(at 50.8 36.83 0)
 			(effects
 				(font
@@ -10129,82 +9621,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 113.03 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba6c3077-7db1-4e3f-8647-aa27be1c8e5b")
-		(property "Reference" "J5"
-			(at 115.57 185.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 115.57 187.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Components:4pin"
-			(at 113.03 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 113.03 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "4320b9c9-ffc4-4eb0-88a8-99c11d5b2c17")
-		)
-		(pin "2"
-			(uuid "382ff58b-1feb-4949-ade4-aab7adf9823a")
-		)
-		(pin "4"
-			(uuid "bfeeab82-9011-4b54-ba82-0c5edbb4225c")
-		)
-		(pin "1"
-			(uuid "ecdabef6-14aa-4de9-97f8-455aa1788991")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 181.61 142.24 0)
 		(unit 1)
@@ -10363,7 +9779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Components:MX-Solderable-1U"
+		(property "Footprint" "Components:Gateron Low Profile Switch 2.0"
 			(at 63.5 50.8 0)
 			(effects
 				(font
@@ -10400,82 +9816,6 @@
 			(project "makropad"
 				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
 					(reference "SW9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 113.03 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2a88f9c-c83b-4afa-85c2-a0e900685281")
-		(property "Reference" "J4"
-			(at 115.57 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 115.57 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Components:4pin"
-			(at 113.03 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 113.03 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5ef87e53-07d9-4240-9427-5ca860caf117")
-		)
-		(pin "2"
-			(uuid "452f6833-9378-4ad7-8a58-bbaf21be24f9")
-		)
-		(pin "4"
-			(uuid "18ee6d20-8bda-46f2-994e-cd6dd38005d9")
-		)
-		(pin "1"
-			(uuid "76c4df0f-ddb5-4c0c-b576-55b499697d28")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -10581,7 +9921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Components:MX-Solderable-1U"
+		(property "Footprint" "Components:Gateron Low Profile Switch 2.0"
 			(at 46.99 44.45 0)
 			(effects
 				(font
@@ -10930,7 +10270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Components:MX-Solderable-1U"
+		(property "Footprint" "Components:Gateron Low Profile Switch 2.0"
 			(at 88.9 50.8 0)
 			(effects
 				(font
@@ -11761,73 +11101,6 @@
 			(project "makropad"
 				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 87.63 190.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea4975d2-445e-4871-950d-fcccc053ea3e")
-		(property "Reference" "#PWR033"
-			(at 81.28 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 190.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "995ccf2e-aa1e-47a9-843a-c4c8f9085254")
-		)
-		(instances
-			(project "makropad"
-				(path "/80ddb64b-5c3d-4ddf-9a9a-b574b6c61b8b"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)

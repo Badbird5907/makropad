@@ -9,5 +9,6 @@
 - 1x Seeed Studio XIAO RP2040
 - 6x 10kΩ SMD 1206 resistors
 - 1x PCF8574A I2C I/O expander
-
-
+- 5x M3 hex nuts
+- 5x M3x5mx4mm heatset inserts
+- 5x M3x16mm scews
