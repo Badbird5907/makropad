@@ -258,9 +258,9 @@
 		(remove_unused_layers no)
 		(uuid "aacc72ae-d408-4ee0-b793-800e204f73bb")
 	)
-	(model "${KIPRJMOD}/Components/Gateron Low Profile Switch 2.0.stp"
+	(model "${KIPRJMOD}/Components/Gateron KS-33.step"
 		(offset
-			(xyz -60 0 -3.5)
+			(xyz 0 0 2.5)
 		)
 		(scale
 			(xyz 1 1 1)
