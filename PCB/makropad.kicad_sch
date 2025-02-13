@@ -4376,6 +4376,28 @@
 			)
 		)
 	)
+	(global_label "STATUS_LED"
+		(shape input)
+		(at 255.27 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59ea4794-7558-487c-ae38-2872062c8fee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.4432 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL1"
 		(shape input)
 		(at 220.98 34.29 180)
@@ -5047,7 +5069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Components:SK6812MINI-E"
+		(property "Footprint" "Components:LED_SK6812MINI"
 			(at 63.5 115.57 0)
 			(effects
 				(font
@@ -6341,7 +6363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Components:SK6812MINI-E"
+		(property "Footprint" "Components:LED_SK6812MINI"
 			(at 63.5 143.51 0)
 			(effects
 				(font
@@ -6701,7 +6723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Components:SK6812MINI-E"
+		(property "Footprint" "Components:LED_SK6812MINI"
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -7483,7 +7505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Components:SK6812MINI-E"
+		(property "Footprint" "Components:LED_SK6812MINI"
 			(at 63.5 171.45 0)
 			(effects
 				(font
@@ -7846,7 +7868,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Components:SK6812MINI-E"
+		(property "Footprint" "Components:LED_SK6812MINI"
 			(at 90.17 143.51 0)
 			(effects
 				(font
@@ -8490,7 +8512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Components:SK6812MINI-E"
+		(property "Footprint" "Components:LED_SK6812MINI"
 			(at 116.84 115.57 0)
 			(effects
 				(font
@@ -10029,7 +10051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Components:SK6812MINI-E"
+		(property "Footprint" "Components:LED_SK6812MINI"
 			(at 38.1 143.51 0)
 			(effects
 				(font
@@ -10349,7 +10371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Components:SK6812MINI-E"
+		(property "Footprint" "Components:LED_SK6812MINI"
 			(at 38.1 115.57 0)
 			(effects
 				(font
@@ -10576,7 +10598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Components:SK6812MINI-E"
+		(property "Footprint" "Components:LED_SK6812MINI"
 			(at 90.17 115.57 0)
 			(effects
 				(font
@@ -10738,7 +10760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Components:SK6812MINI-E"
+		(property "Footprint" "Components:LED_SK6812MINI"
 			(at 116.84 143.51 0)
 			(effects
 				(font
