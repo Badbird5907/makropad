@@ -1,7 +1,7 @@
 # Makropad BOM
 
 - 10x Gateron Brown LOW PROFILE switches (or any other gateron LP switch)
-- 10x Reverse-mounted SK6812 SMD LEDs
+- 10x Reverse-mounted SK6812MINI-E SMD LEDs
 - 12x SMD Diodes (1N4148W)
 - 6x Normal SK6812 SMD LEDs
 - 2x EC11 Rotary encoders

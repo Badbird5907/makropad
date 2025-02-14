@@ -4,4 +4,5 @@
   (lib (name "XIAO_RP2040")(type "KiCad")(uri "${KIPRJMOD}/Components/XIAO_RP2040.kicad_sym")(options "")(descr ""))
   (lib (name "PCF8574AN")(type "KiCad")(uri "${KIPRJMOD}/Components/PCF8574A_SMD.kicad_sym")(options "")(descr ""))
   (lib (name "SK6812_CUSTOM")(type "KiCad")(uri "${KIPRJMOD}/Components/SK6812_CUSTOM.kicad_sym")(options "")(descr ""))
+  (lib (name "neopixel")(type "KiCad")(uri "${KIPRJMOD}/Components/neopixel.petty/neopixel.kicad_sym")(options "")(descr ""))
 )
