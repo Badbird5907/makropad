@@ -4217,28 +4217,6 @@
 		)
 		(uuid "ef106432-3cd8-4a8c-aa92-66559b10aa9a")
 	)
-	(global_label "ROW0"
-		(shape input)
-		(at 261.62 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "02764673-1db9-4646-a03e-6992af361f61")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.8666 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ENC_1_A"
 		(shape input)
 		(at 255.27 82.55 0)
@@ -4481,28 +4459,6 @@
 			)
 		)
 	)
-	(global_label "ENC_1_SWA"
-		(shape input)
-		(at 111.76 52.07 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1920a6cd-f7f0-4c40-83e3-ae062b4c4282")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 38.4411 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C_SCL"
 		(shape input)
 		(at 220.98 44.45 180)
@@ -4591,6 +4547,28 @@
 			)
 		)
 	)
+	(global_label "ENC_2_SWB"
+		(shape input)
+		(at 107.95 38.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34603a0d-12be-44df-a86d-bfc5e6c0b5ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.95 51.9103 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C_SDA"
 		(shape input)
 		(at 265.43 132.08 180)
@@ -4657,6 +4635,28 @@
 			)
 		)
 	)
+	(global_label "ENC_1_SWA"
+		(shape input)
+		(at 40.64 50.8 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48965c1d-ff1f-4215-b54c-7a1eb6afb5e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 37.1711 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ENC_2_A"
 		(shape input)
 		(at 173.99 49.53 0)
@@ -4719,28 +4719,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ENC_1_SWB"
-		(shape input)
-		(at 107.95 38.1 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "52479bf4-2d15-4d12-ac46-681a470bafbb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.95 51.9103 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4899,28 +4877,6 @@
 			)
 		)
 	)
-	(global_label "ROW1"
-		(shape input)
-		(at 261.62 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7f29b064-1612-4d6c-a7bb-8f71533105cd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.8666 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C_SDA"
 		(shape input)
 		(at 227.33 153.67 180)
@@ -5031,28 +4987,6 @@
 			)
 		)
 	)
-	(global_label "ENC_2_SWB"
-		(shape input)
-		(at 36.83 36.83 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b1f7d909-a3aa-43a4-9973-87a14adf9821")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.83 50.6403 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C_SDA"
 		(shape input)
 		(at 87.63 173.99 180)
@@ -5088,6 +5022,28 @@
 		(uuid "ba2da0f6-9e28-4849-8c9e-2ca8c6c9cfec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 35.56 20.1167 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 261.62 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bece2e13-4238-4864-8b2c-f558135ad69f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.8666 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,28 +5141,6 @@
 			)
 		)
 	)
-	(global_label "ENC_2_SWA"
-		(shape input)
-		(at 40.64 50.8 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f0780975-3501-4510-be54-e6eeffe4601f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.64 37.1711 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "OLED_SDA"
 		(shape input)
 		(at 231.14 153.67 0)
@@ -5220,6 +5154,28 @@
 		(uuid "f2ef7c68-638d-4f66-ae14-beee91e345d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 243.4385 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW0"
+		(shape input)
+		(at 261.62 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9e648ff-7abd-456f-8439-961ddf23f8a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.8666 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5251,6 +5207,28 @@
 			)
 		)
 	)
+	(global_label "ENC_1_SWB"
+		(shape input)
+		(at 36.83 36.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fcbcaedb-1b56-4557-a760-ba6995026c36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.83 50.6403 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "STATUS_LED"
 		(shape input)
 		(at 147.32 121.92 180)
@@ -5269,6 +5247,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENC_2_SWA"
+		(shape input)
+		(at 111.76 52.07 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fda9029a-03e5-4b86-92c0-275c435ab51e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 38.4411 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
